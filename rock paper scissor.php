@@ -19,7 +19,7 @@ IF($_POST['user_choice']){
 	$_SESSION['Score']= (int)$_SESSION['Score'] -1;
 	}
 	ELSE IF($user_choice == 'Scissors' && $Computer == 'Rock'){
-	echo Result : Lose -1';
+	echo 'Result : Lose -1';
 	$_SESSION['Score']= (int)$_SESSION['Score'] -1;
 	}
 	ELSE IF($user_choice == 'Scissors' && $Computer == 'Paper'){
